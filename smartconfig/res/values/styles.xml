@@ -1,0 +1,37 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Activity themes
+    -->
+    <style name="Theme.Base" parent="android:Theme.Holo.Light"/>
+    
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    
+    <style name="AppTheme" parent="Theme.Sample">
+         <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style>
+
+    <!-- Widget styling -->
+    <style name="Widget"/>
+   
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    
+	<style name="MenuTextStyle">
+	    <item name="android:textSize">24sp</item>
+	</style>
+
+    
+    <style name="loadingDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+ 	<!-- 对话框是否有遮盖 -->
+
+    </style>
+</resources>

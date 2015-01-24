@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartConfig</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ssid">SSID:</string>
+    <string name="password">PASSWORD:</string>
+    <string name="About">关于</string>
+    <string name="msg">Author: younger </string>
+    <string name="msg1">本软件仅限用于学习交流。</string>
+    <string name="msg2">有任何疑问或者改进意见请联系QQ：491505215. Email: lanyiyang_dh@163.com    </string>						
+
+
+</resources>
