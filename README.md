@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 esp8266-smartconfig
 =======
 
@@ -72,3 +73,7 @@ See above.
 
 ### Reference
 在这里特别感谢kali的blog，从他的代码中进行了修改，欢迎大家讨论。
+=======
+# esp8266-smartconfig
+This is a smartconfig demo code on esp8266. Just enjoy yourself!!!
+>>>>>>> 09452215c7d9230e8f34d620f0b8378f9c72493b
