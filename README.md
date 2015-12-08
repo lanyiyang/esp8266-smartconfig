@@ -1,35 +1,35 @@
-<<<<<<< HEAD
-esp8266-smartconfig
-=======
+# esp8266-smartconfig
+
+This is a smartconfig demo code on esp8266. Just enjoy yourself!!!
 
 Instruction in English is followed by Chinese.
-### ËµÃ÷
-ÕâÖ»ÊÇÒ»¸ö²âÊÔdemo£¬½ö¹©Ñ§Ï°½»Á÷¡£Èç¹ûÄã²âÊÔ³öÈí¼þµÄbug »òÕßÓÐÈÎºÎ¸Ä½øÒâ¼û£¬ÇëÁªÏµÎÒ¡£
-QQ£º491505215
-Email£ºlanyiyang_dh@163.com
+### è¯´æ˜Ž
+è¿™åªæ˜¯ä¸€ä¸ªæµ‹è¯•demoï¼Œä»…ä¾›å­¦ä¹ äº¤æµã€‚å¦‚æžœä½ æµ‹è¯•å‡ºè½¯ä»¶çš„bug æˆ–è€…æœ‰ä»»ä½•æ”¹è¿›æ„è§ï¼Œè¯·è”ç³»æˆ‘ã€‚
+QQï¼š491505215
+Emailï¼šlanyiyang_dh@163.com
 
 ### Introductions
 This just a test demo, only for study and communication. If you test the software bugs or have any improvement, please contact me.
-QQ£º491505215
-Email£ºlanyiyang_dh@163.com
+QQï¼š491505215
+Emailï¼šlanyiyang_dh@163.com
 
-### Ãû´Ê¶¨Òå
-*Smartconfig* ÓÃÓÚÔÚÎïÀíÍøÉè±¸Ã»ÓÐÍâ²¿ÊäÈë¶ËÊ±£¬Ê¹ÓÃÊÖ»ú¶ÔÆä½øÐÐÅäÖÃµÄÒ»ÖÖÍ¨ÓÃµÄËµ·¨¡£  
+### åè¯å®šä¹‰
+*Smartconfig* ç”¨äºŽåœ¨ç‰©ç†ç½‘è®¾å¤‡æ²¡æœ‰å¤–éƒ¨è¾“å…¥ç«¯æ—¶ï¼Œä½¿ç”¨æ‰‹æœºå¯¹å…¶è¿›è¡Œé…ç½®çš„ä¸€ç§é€šç”¨çš„è¯´æ³•ã€‚  
 
 ### Definition of Smartconfig
 *Smartconfig* is a generic phrase when you configure your IoT devices by mobile phone, PC etc. instead of physical external devices.
 
-### Ê¹ÓÃ·½·¨
-ÔÚÐèÒªÊ¹ÓÃ `smartconfig` µÄµØ·½µ÷ÓÃ
+### ä½¿ç”¨æ–¹æ³•
+åœ¨éœ€è¦ä½¿ç”¨ `smartconfig` çš„åœ°æ–¹è°ƒç”¨
 
 ```c
 smartconfig_init();
 ```
 
-**ÊÖ»ú¶Ë**: ÓÐÅäÌ×µÄAndroid demo¡£IOSµÄdemoÂé·³ÍòÄÜµÄÍøÓÑ°ïÃ¦ÊµÏÖÁË¡£
+**æ‰‹æœºç«¯**: æœ‰é…å¥—çš„Android demoã€‚IOSçš„demoéº»çƒ¦ä¸‡èƒ½çš„ç½‘å‹å¸®å¿™å®žçŽ°äº†ã€‚
 
-**SDK °æ±¾**: 0.9.3 by Espressif
-ÓÉÓÚespressifÔÚv0.9.4ÉÏÃæÐÞ¸ÄÁËsnifferµÄº¯Êý£¬µ¼ÖÂÓÃ»§²ãÎÞ·¨µÃµ½Ò»¸öÍêÕûµÄÊý¾Ý°ü£¬ËùÒÔÄ¿Ç°Ö»ÄÜÔÚ0.9.3µÄ°æ±¾ÉÏ²âÊÔ¡£
+**SDK ç‰ˆæœ¬**: 0.9.3 by Espressif
+ç”±äºŽespressifåœ¨v0.9.4ä¸Šé¢ä¿®æ”¹äº†snifferçš„å‡½æ•°ï¼Œå¯¼è‡´ç”¨æˆ·å±‚æ— æ³•å¾—åˆ°ä¸€ä¸ªå®Œæ•´çš„æ•°æ®åŒ…ï¼Œæ‰€ä»¥ç›®å‰åªèƒ½åœ¨0.9.3çš„ç‰ˆæœ¬ä¸Šæµ‹è¯•ã€‚
 
 ### Usage
 Call `smartconfig_init();` when you want to use Smarkconfig to configure.
@@ -38,13 +38,13 @@ Call `smartconfig_init();` when you want to use Smarkconfig to configure.
 
 **SDK Version**: 0.9.3 by Espressif
 
-### Ô­Àí
-UDP packet len¡£
+### åŽŸç†
+UDP packet lenã€‚
 
 ### Principle
-UDP packet len¡£
+UDP packet lenã€‚
 
-### Ð­Òé
+### åè®®
 The MIT License (MIT)
 
 Copyright (c) 2014 younger
@@ -72,8 +72,5 @@ THE SOFTWARE.
 See above.
 
 ### Reference
-ÔÚÕâÀïÌØ±ð¸ÐÐ»kaliµÄblog£¬´ÓËûµÄ´úÂëÖÐ½øÐÐÁËÐÞ¸Ä£¬»¶Ó­´ó¼ÒÌÖÂÛ¡£
-=======
-# esp8266-smartconfig
-This is a smartconfig demo code on esp8266. Just enjoy yourself!!!
->>>>>>> 09452215c7d9230e8f34d620f0b8378f9c72493b
+åœ¨è¿™é‡Œç‰¹åˆ«æ„Ÿè°¢kaliçš„blogï¼Œä»Žä»–çš„ä»£ç ä¸­è¿›è¡Œäº†ä¿®æ”¹ï¼Œæ¬¢è¿Žå¤§å®¶è®¨è®ºã€‚
+
